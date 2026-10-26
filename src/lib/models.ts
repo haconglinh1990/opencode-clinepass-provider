@@ -60,6 +60,14 @@ export interface ModelConfigEntry {
  */
 export const MODELS: readonly ModelDef[] = [
   {
+    id: "cline-pass/kimi-k3",
+    name: "Kimi K3 (ClinePass)",
+    context: 1_048_576,
+    output: 131_072,
+    reasoning: true,
+    thinkingLevelMap: { off: "none", minimal: null, low: "low", medium: "medium", high: "high", xhigh: "xhigh" },
+  },
+  {
     id: "cline-pass/glm-5.2",
     name: "GLM-5.2 (ClinePass)",
     context: 1_048_576,
